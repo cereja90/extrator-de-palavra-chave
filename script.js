@@ -1,3 +1,6 @@
 const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
 
-botaoMostraPalavras.addEventListener(click)
+    const texto = document.querySelector('#entrada-de-texto').value;
+
+}
+ 
