@@ -1,4 +1,4 @@
-import { PALAVRAS_RUINS } from "./palavrasruins.js";
+import { PALAVRAS_RUINS } from "./palavrasRuins.js";
 
 const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
 
@@ -19,7 +19,7 @@ function processaTexto(texto) {
         palavras[i] = palavras[i].toLowerCase();
     }
 
-    palavras = tirapalavrasruins(palavras);
+    palavras = tiraPalavrasRuins(palavras);
 
     const frequencias = contaFrequencias(palavras);
     let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
